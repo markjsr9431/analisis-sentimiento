@@ -12,8 +12,8 @@ Original file is located at
 import pandas as pd
 
 # Montar Google Drive si el archivo está allí
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Cargar el archivo CSV (ajusta la ruta si está en tu Drive)
 df = pd.read_csv('/content/drive/My Drive/Reviews.csv')
