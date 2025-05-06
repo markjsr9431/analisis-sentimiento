@@ -16,7 +16,7 @@ import pandas as pd
 #drive.mount('/content/drive')
 
 # Cargar el archivo CSV (ajusta la ruta si está en tu Drive)
-df = pd.read_csv('/content/drive/My Drive/Reviews.csv')
+df = pd.read_csv('/content/drive/My Drive/Reviews_reducido.csv')
 
 # Ver las primeras filas
 df.head()
