@@ -18,6 +18,10 @@ import pandas as pd
 # Cargar el archivo CSV (ajusta la ruta si está en tu Drive)
 df = pd.read_csv('data/Reviews_reducido.csv')
 
+git commit -m "Subir archivo CSV"
+git push origin main
+
+
 # Ver las primeras filas
 df.head()
 
